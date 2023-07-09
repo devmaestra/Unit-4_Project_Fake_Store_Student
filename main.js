@@ -1,5 +1,4 @@
-// import apiKey from '.key.js'; 
-
+// Global Variables:
 const baseURL = 'https://fakestoreapi.com/';
 const theStore = document.getElementById("store-link");
 const cartBtn = document.getElementById("cart-btn");
@@ -9,14 +8,14 @@ const mensClothing = document.getElementById("mens-link");
 const womensClothing = document.getElementById("womens-link");
 const display = document.getElementById("display");
 
-
+// Variables to connect to API:
 const productsAll = "products";
 const productsElectronics = "products/category/electronics";
 const productsJewelery = "products/category/jewelery";
 const productsMens = "products/category/men's%20clothing";
 const productsWomens = "products/category/women's%20clothing";
 
-
+// fakeStore function:
 const fakeStore = async (endpoint) => {
     try {
     const response = await fetch(`${baseURL}${endpoint}`);
@@ -27,13 +26,14 @@ const fakeStore = async (endpoint) => {
     }
 };
 
+// Onload method: 
 window.onload = () => {
     let endpoint = productsAll;
     console.log("page is fully loaded"); //works
     fakeStore(endpoint);
 };
 
-
+// Event Listeners: 
 electronics.addEventListener('click', () => {
     endpoint = productsElectronics;
     fakeStore(endpoint);
@@ -60,3 +60,5 @@ theStore.addEventListener('click', () => {
     endpoint = productsAll;
     fakeStore(endpoint);
 });
+
+// not getting specific category data console logged yet, still seeing all the data. Is that right?
