@@ -129,19 +129,19 @@ It is expected to have one single fetch that accepts variable data to help deter
 %- **And** create a global variable that will hold the API URL.
 
 **Obtain Data:**
-- **Given** the global variables are created with assigned values.
-- **Then** create an `async function` called "fakeStore".
-- **And** this function will expect a parameter called "endpoint".
-- **Given** the `fakeStore` function has been framed.
-- **Then** write an `await` response that fetches from the provided api.
-- **And** this fetch should use the global api url variable.
-- **And** incorporate the parameter `endpoint`.
+%- **Given** the global variables are created with assigned values.
+%- **Then** create an `async function` called "fakeStore".
+%- **And** this function will expect a parameter called "endpoint".
+%- **Given** the `fakeStore` function has been framed.
+%- **Then** write an `await` response that fetches from the provided api.
+%- **And** this fetch should use the global api url variable.
+%- **And** incorporate the parameter `endpoint`.
 
 **On Load:**
-- **Given** the user loads the page.
-- **Then** target the window object.
-- **And** use an `onload` method that will invoke the `fakeStore` function.
-- **And** provide an argument that will be the endpoint for the URL fetch.
+%- **Given** the user loads the page.
+%- **Then** target the window object.
+%- **And** use an `onload` method that will invoke the `fakeStore` function.
+%- **And** provide an argument that will be the endpoint for the URL fetch.
 
 **Event Listeners:**
 - **Given** the page has loaded with data being returned.
@@ -156,8 +156,8 @@ It is expected to have one single fetch that accepts variable data to help deter
 - Consider Scope and Hoisting when writing various aspects of your code, such as event listeners.
 
 **Ticket Requirements:**
-- gloabl variables should not have the capability to change later in the code.
-- The `fakeStore()` function should be written as a block body arrow function.
+%- gloabl variables should not have the capability to change later in the code.
+%- The `fakeStore()` function should be written as a block body arrow function.
 - The window onload should provide an endpoint that returns **all** data from the API in ascending order.
   - This should be set to the very bottom of the file.
 - At this point, all data should be at least displayed within the `console`.
