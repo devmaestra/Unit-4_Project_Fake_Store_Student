@@ -113,7 +113,7 @@ Setting up some basic styling guides prior to feeding a lot of data through your
   - All information can be found within the documentation.
 
 **Ticket Requirements:**
-- The `navbar` element `sticky` should be handled via bootstrap.
+?- The `navbar` element `sticky` should be handled via bootstrap.
 %- Make the `footer` content visually appealing with potential padding & margin needs.
 
 ---
@@ -123,10 +123,10 @@ Setting up some basic styling guides prior to feeding a lot of data through your
 It is expected to have one single fetch that accepts variable data to help determine what should be obtained depending on user interaction.
 
 **Variables:**
-- **Given** there is a `javaScript` file connected to `index.html`.
-- **Then** create global variables that connect the navbar categories in the `navbar`.
-- **And** create a global variable that connects to the `display div`. 
-- **And** create a global variable that will hold the API URL.
+%- **Given** there is a `javaScript` file connected to `index.html`.
+%- **Then** create global variables that connect the navbar categories in the `navbar`.
+%- **And** create a global variable that connects to the `display div`. 
+%- **And** create a global variable that will hold the API URL.
 
 **Obtain Data:**
 - **Given** the global variables are created with assigned values.

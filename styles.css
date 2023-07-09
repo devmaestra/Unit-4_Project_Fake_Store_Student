@@ -43,6 +43,10 @@ Where do I put this CSS Variables part for hte nav bar elements?
   color: black;
 }
 
+#store-link {
+    
+}
+
 #display {
     text-align: center;
     margin-top: 20px;
