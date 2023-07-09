@@ -51,7 +51,7 @@ mensClothing.addEventListener('click', () => {
     fakeStore(endpoint);
 });
 
-womensClothing.addEventListener('click', () => {
+womensClothing.addEventListener('onclick', () => {
     endpoint = productsWomens;
     fakeStore(endpoint);
 });
@@ -62,3 +62,7 @@ theStore.addEventListener('click', () => {
 });
 
 // not getting specific category data console logged yet, still seeing all the data. Is that right?
+
+const displayCards() => {
+
+}
