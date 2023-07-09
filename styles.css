@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 /* .nav{
     background-color: gray;
@@ -27,8 +28,24 @@ body {
     z-index: 1;
 }
 
-#display {
 
+.nav-item {
+
+}
+/*
+Where do I put this CSS Variables part for hte nav bar elements?
+    --#{$prefix}nav-pills-border-radius: #{$nav-pills-border-radius};
+    --#{$prefix}nav-pills-link-active-color: #{$nav-pills-link-active-color};
+    --#{$prefix}nav-pills-link-active-bg: #{$nav-pills-link-active-bg};
+    */
+
+.nav-link {
+  color: black;
+}
+
+#display {
+    text-align: center;
+    margin-top: 20px;
 }
 
 footer {
@@ -36,4 +53,6 @@ footer {
     color: white;
     margin-top: auto;
     text-align: center;
+    padding: 5px 8px;
+    font-size: small;
 }

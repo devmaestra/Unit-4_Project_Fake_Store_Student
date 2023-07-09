@@ -86,27 +86,27 @@ The project build is very important in the inital design. Consider the wireframe
 Setting up some basic styling guides prior to feeding a lot of data through your build can help your overall process.
 
 **Body:**
-- **Given** there is a body element.
-- **Then** set a display of `flex`.
-- **And** align center with a column direction.
-- **And** make sure the x axis for the `overflow` is hidden.
+%- **Given** there is a body element.
+%- **Then** set a display of `flex`.
+%- **And** align center with a column direction.
+%- **And** make sure the x axis for the `overflow` is hidden.
 
 **Navbar:**
-- **Given** there is a `navbar` element.
-- **Then** have it extend the entire width of the viewport.
-- **And** it sticks to the top of the page.
+%- **Given** there is a `navbar` element.
+%- **Then** have it extend the entire width of the viewport.
+%- **And** it sticks to the top of the page.
 
 **Display:**
-- **Given** there is a `div` element with an id "display".
-- **Then** have all the text aligned in the center of the element.
-- **And** provide a margin to the top.
+%- **Given** there is a `div` element with an id "display".
+%- **Then** have all the text aligned in the center of the element.
+%- **And** provide a margin to the top.
 
 **Footer:**
-- **Given** the `footer` element exists.
-- **Then** all content will be centered.
-- **And** set the background to black.
-- **And** set the font to white.
-- **And** fix the element to the bottom of the viewport.
+%- **Given** the `footer` element exists.
+%- **Then** all content will be centered.
+%- **And** set the background to black.
+%- **And** set the font to white.
+%- **And** fix the element to the bottom of the viewport.
 
 **Note:**
 - Consider the bootstrap class names and what they are doing for your templated components.
@@ -114,7 +114,7 @@ Setting up some basic styling guides prior to feeding a lot of data through your
 
 **Ticket Requirements:**
 - The `navbar` element `sticky` should be handled via bootstrap.
-- Make the `footer` content visually appealing with potential padding & margin needs.
+%- Make the `footer` content visually appealing with potential padding & margin needs.
 
 ---
 
