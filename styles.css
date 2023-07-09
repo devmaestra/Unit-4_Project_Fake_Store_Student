@@ -1,0 +1,39 @@
+body {
+    margin: 0; 
+    /* padding-top: 6rem;
+    background-image: url();
+    background-size: cover; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* .nav{
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 1em 1em;
+    z-index: 1;
+} */
+.nav-pills {
+    
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 1em 1em;
+    z-index: 1;
+}
+
+#display {
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    text-align: center;
+}

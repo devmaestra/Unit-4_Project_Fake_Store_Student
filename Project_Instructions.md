@@ -47,36 +47,36 @@ These will be referenced throughout your build processes.
 The project build is very important in the inital design. Consider the wireframe, API documentation, and detail any comments that you believe would be useful to help navigate your code. 
 
 **Files:**
-- **Given** the project folder has been created.
-- **Then** create the project files and folders.
-- **And** associate files in their proper folders.
-- **And** the entry point file should be `index.html`.
+%- **Given** the project folder has been created.
+%- **Then** create the project files and folders.
+%- **And** associate files in their proper folders.
+%- **And** the entry point file should be `index.html`.
 
 **Connection & Navigation:**
-- **Given** the `index.html` has been framed.
-- **Then** connected **Bootstrap**, **CSS**, and **JavaScript** files.
-- **Given** the file and folder structure has been created.
-- **Then** create a **navbar**.
-- **And** a brand is associated in the top left.
-- **And** each route is associated with a category provided.
+%- **Given** the `index.html` has been framed.
+%- **Then** connected **Bootstrap**, **CSS**, and **JavaScript** files.
+%- **Given** the file and folder structure has been created.
+%- **Then** create a **navbar**.
+%- **And** a brand is associated in the top left.
+%- **And** each route is associated with a category provided.
 
 **Display Section:**
-- **Given** the navbar has been framed.
-- **Then** create a `div` with an id of "display"
+%- **Given** the navbar has been framed.
+%- **Then** create a `div` with an id of "display"
 
 **Footer:**
-- **Given** the navbar and display `div` has been created.
-- **Then** create a `footer`.
-- **And** include a copyright that states, "Unit 4 Project ~ Upright Education Copyright &copy; 2023"
+%- **Given** the navbar and display `div` has been created.
+%- **Then** create a `footer`.
+%- **And** include a copyright that states, "Unit 4 Project ~ Upright Education Copyright &copy; 2023"
 
 **Notes:**
-- Review the API documentation to note what categories are available.
+%- Review the API documentation to note what categories are available.
 
 **Ticket Requirements:**
-- The `title` should be "Fake Store Front"
-- *The Brand* should be called "The Store"
-- The `display div` will be empty.
-- The copyright should be a section heading element. 
+%- The `title` should be "Fake Store Front"
+%- *The Brand* should be called "The Store"
+%- The `display div` will be empty.
+%- The copyright should be a section heading element. 
 
 ---
 
