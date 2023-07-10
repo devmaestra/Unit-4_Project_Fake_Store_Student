@@ -1,22 +1,14 @@
 body {
     margin: 0; 
-    /* padding-top: 6rem;
-    background-image: url();
+    padding-top: 5rem;
+    /*background-image: url();
     background-size: cover; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
 }
-/* .nav{
-    background-color: gray;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    margin: 0;
-    padding: 1em 1em;
-    z-index: 1;
-} */
+
 .nav-pills {
     
     background-color: lightgray;
@@ -40,7 +32,7 @@ Where do I put this CSS Variables part for hte nav bar elements?
     */
 
 .nav-link {
-  color: black;
+    color: black;
 }
 
 #store-link {
@@ -50,7 +42,12 @@ Where do I put this CSS Variables part for hte nav bar elements?
 #display {
     
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 30px; */
+    margin: 30px 0px 8px 8px;
+    
+}
+
+.card {
 }
 
 footer {
@@ -58,6 +55,6 @@ footer {
     color: white;
     margin-top: auto;
     text-align: center;
-    padding: 5px 8px;
+    padding: 5px 0px;
     font-size: small;
 }

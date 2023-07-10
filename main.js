@@ -63,6 +63,6 @@ theStore.addEventListener('click', () => {
 
 // not getting specific category data console logged yet, still seeing all the data. Is that right?
 
-const displayCards() => {
-
+const displayCards = itemToSell => {
+    console.log(itemToSell);
 }
