@@ -168,16 +168,16 @@ It is expected to have one single fetch that accepts variable data to help deter
 Once your data is being returned, it's time to display it all. You will be using the `display div` as your entry point for each individual card to show. 
 
 **Frame:**
-- **Given** data is returning to the `console`.
-- **Then** write a function called `displayCards` that accepts a parameter.
-- **And** invoke this function after the fetch results in the `fakeStore`.
+%- **Given** data is returning to the `console`.
+%- **Then** write a function called `displayCards` that accepts a parameter.
+?- **And** invoke this function after the fetch results in the `fakeStore`.
 - **And** add comments that detail the three main steps of creating elements.
 
 **Card Building**
 - **Given** the `displayCards` function is obtaining the correct data from the API.
 - **Then** cycle through the data.
 - **And** create the necessary elements to make a card.
-- **And** create the necessary elements to include an accordion.
+%- **And** create the necessary elements to include an accordion.
 - **Given** each element has been created.
 - **Then** set the necessary properties to each element.
 - **And** provide the various values from the API.
