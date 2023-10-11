@@ -176,7 +176,7 @@ Once your data is being returned, it's time to display it all. You will be using
 **Card Building**
 - **Given** the `displayCards` function is obtaining the correct data from the API.
 - **Then** cycle through the data.
-- **And** create the necessary elements to make a card.
+%- **And** create the necessary elements to make a card.
 %- **And** create the necessary elements to include an accordion.
 - **Given** each element has been created.
 - **Then** set the necessary properties to each element.
