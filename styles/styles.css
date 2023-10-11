@@ -24,12 +24,12 @@ body {
 .nav-item {
 
 }
-/*
-Where do I put this CSS Variables part for hte nav bar elements?
-    --#{$prefix}nav-pills-border-radius: #{$nav-pills-border-radius};
-    --#{$prefix}nav-pills-link-active-color: #{$nav-pills-link-active-color};
-    --#{$prefix}nav-pills-link-active-bg: #{$nav-pills-link-active-bg};
-    */
+
+
+    #{$prefix}nav-pills-border-radius: #{$nav-pills-border-radius};
+    #{$prefix}nav-pills-link-active-color: #{$nav-pills-link-active-color};
+    #{$prefix}nav-pills-link-active-bg: #{$nav-pills-link-active-bg};
+   
 
 .nav-link {
     color: black;
