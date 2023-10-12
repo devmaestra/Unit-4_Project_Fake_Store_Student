@@ -96,9 +96,12 @@ const displayCards = (items) => {
       body.className = "card-body";
       title.className = "card-title";
       title.textContent = obj.title;
-      descBody.id = `collapseOne-${rowIndex}-${columnIndex}`;
+      descBody.id = "accordion-item";
+      descBody.className = "accordion-body-desc";
+      descBody.textContent = obj.description;
       priceBody.id = `collapseTwo-${rowIndex}-${columnIndex}`;
-      a.href = obj.link;
+      // priceBody.textContent = a.href = obj.link;
+      priceBody.textContent = obj.price;
       a.target = "_blank";
       // a.textContent = "Add To Cart";
       addToCart.textContent = "Add To Cart";
