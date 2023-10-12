@@ -143,13 +143,13 @@ function updateCartContent() {
   });
 }
 
-cartBtn.addEventListener("click", () => {
-  updateCartContent(); // Update cart content before showing the modal
-  const myModal = new bootstrap.Modal(
-    document.getElementById("shoppingCartModal")
-  );
-  myModal.show();
-});
+// cartBtn.addEventListener("click", () => {
+//   updateCartContent();
+//   const myModal = new bootstrap.Modal(
+//     document.getElementById("shoppingCartModal")
+//   );
+//   myModal.show();
+// });
 
 // onload method:
 window.onload = (e) => {
