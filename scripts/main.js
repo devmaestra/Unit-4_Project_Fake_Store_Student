@@ -39,7 +39,7 @@ const fakeStore = async (endpoint) => {
 document.addEventListener("DOMContentLoaded", () => {
   electronicsLink.addEventListener("click", () => {
     fakeStore(productsElectronics);
-    console.log(baseURL + productsElectronics);
+    // console.log(baseURL + productsElectronics);
   });
 
   jeweleryLink.addEventListener("click", () => {
@@ -121,6 +121,35 @@ const displayCards = (items) => {
     display.appendChild(rowDiv);
   });
 };
+
+let shoppingCart = [];
+
+function addToCart(item) {
+  shoppingCart.push(item);
+}
+
+function updateCartContent() {
+  const cartBody = document.querySelector(".modal-body");
+  cartBody.innerHTML = "";
+
+  shoppingCart.forEach((item) => {
+    const cartItem = document.createElement("div");
+    cartItem.innerHTML = `
+      <h5>${item.title}</h5>
+      <p>Price: $${item.price}</p>
+      <button class="btn btn-danger">Remove</button>
+    `;
+    cartBody.appendChild(cartItem);
+  });
+}
+
+cartBtn.addEventListener("click", () => {
+  updateCartContent(); // Update cart content before showing the modal
+  const myModal = new bootstrap.Modal(
+    document.getElementById("shoppingCartModal")
+  );
+  myModal.show();
+});
 
 // onload method:
 window.onload = (e) => {
