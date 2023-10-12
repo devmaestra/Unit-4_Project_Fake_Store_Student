@@ -100,7 +100,7 @@ const displayCards = (items) => {
       priceBody.id = `collapseTwo-${rowIndex}-${columnIndex}`;
       a.href = obj.link;
       a.target = "_blank";
-      a.textContent = "Add To Cart";
+      // a.textContent = "Add To Cart";
       addToCart.textContent = "Add To Cart";
 
       // Append elements to their parents
