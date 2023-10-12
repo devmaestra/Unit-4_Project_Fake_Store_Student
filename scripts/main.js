@@ -28,11 +28,9 @@ const fakeStore = async (endpoint) => {
       console.log(data);
       displayCards(data);
     } else {
-      // Handle HTTP error (e.g., 404 Not Found, 500 Internal Server Error)
       console.error(`HTTP Error: ${response.status}`);
     }
   } catch (error) {
-    // Handle network or other errors
     console.error("An error has occurred:", error);
   }
 };
@@ -130,4 +128,4 @@ window.onload = (e) => {
   console.log("Page Load Completed.");
 };
 
-// fakeStore(productsAll);
+fakeStore(productsAll);
