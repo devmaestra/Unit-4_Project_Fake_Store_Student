@@ -124,9 +124,10 @@ const displayCards = (items) => {
   });
 };
 
-fakeStore(productsAll);
-// Onload method:
-// window.onload = (e) => {
-//   fakeStore(productsAll + "?limit=8");
-//   console.log("Page Load Completed.");
-// };
+// onload method:
+window.onload = (e) => {
+  fakeStore(productsAll + "?limit=8");
+  console.log("Page Load Completed.");
+};
+
+// fakeStore(productsAll);
